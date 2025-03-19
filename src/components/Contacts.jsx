@@ -39,7 +39,7 @@ function Contacts() {
                         <span>meeth2036@gmail.com</span>
                     </a>
                     <p className={`text-sm ${theme === 'dark' ? 'text-gray-400' : 'text-gray-500'}`}>
-                        © 2024 Meeth Patel. All rights reserved.
+                        © 2025 Meeth Patel. All rights reserved.
                     </p>
                 </div>
             </div>

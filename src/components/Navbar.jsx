@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AiFillHeart } from 'react-icons/ai';
 import { CiMenuBurger } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
@@ -6,15 +6,21 @@ import { BsTwitterX } from "react-icons/bs";
 import { useTheme } from '../context/ThemeContext'; // Import the theme context
 import { CiLight } from "react-icons/ci";    
 import { MdOutlineDarkMode } from "react-icons/md";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
     const [nav, setNav] = useState(false);
     const { theme, toggleTheme } = useTheme(); // Use theme and toggle function
+    const location = useLocation();
 
     const handleNav = () => {
         setNav(!nav);
     };
+
+    // Close navbar when route changes
+    useEffect(() => {
+        setNav(false);
+    }, [location]);
 
     return (    
         <div className={`flex justify-between h-24 max-w-[800px] mx-auto pt-16 px-4 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
