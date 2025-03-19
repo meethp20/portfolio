@@ -6,7 +6,7 @@ import { BsTwitterX } from "react-icons/bs";
 import { useTheme } from '../context/ThemeContext'; // Import the theme context
 import { CiLight } from "react-icons/ci";    
 import { MdOutlineDarkMode } from "react-icons/md";
-import { Link, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 function Navbar() {
     const [nav, setNav] = useState(false);
@@ -42,14 +42,53 @@ function Navbar() {
             </div>
 
             <ul className='hidden md:flex space-x-6'>
-                <li className={`${theme === 'dark' ? 'hover:text-gray-400' : 'hover:text-gray-600'}`}>
-                    <Link to="/">about</Link>
+                <li>
+                    <NavLink 
+                        to="/" 
+                        className={({ isActive }) => 
+                            `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
+                                ? isActive 
+                                    ? 'text-purple-400 border border-purple-400' 
+                                    : 'hover:text-gray-400' 
+                                : isActive 
+                                    ? 'text-purple-600 border border-purple-600' 
+                                    : 'hover:text-gray-600'}`
+                        }
+                    >
+                        about
+                    </NavLink>
                 </li>
-                <li className={`${theme === 'dark' ? 'hover:text-gray-400' : 'hover:text-gray-600'}`}>
-                    <Link to="/stacks">stacks</Link>
+                <li>
+                    <NavLink 
+                        to="/stacks" 
+                        className={({ isActive }) => 
+                            `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
+                                ? isActive 
+                                    ? 'text-purple-400 border border-purple-400' 
+                                    : 'hover:text-gray-400' 
+                                : isActive 
+                                    ? 'text-purple-600 border border-purple-600' 
+                                    : 'hover:text-gray-600'}`
+                        }
+                    >
+                        stacks
+                    </NavLink>
                 </li>
-                <li className={`${theme === 'dark' ? 'hover:text-gray-400' : 'hover:text-gray-600'}`}>
-                    <Link to="/projects">projects</Link>
+                <li>
+                    <NavLink 
+                        to="/projects" 
+                        className={({ isActive }) => 
+                            `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
+                                ? isActive 
+                                    ? 'text-purple-400 border border-purple-400' 
+                                    : 'hover:text-gray-400' 
+                                : isActive 
+                                    ? 'text-purple-600 border border-purple-600' 
+                                    : 'hover:text-gray-600'}`
+                        }
+                    >
+                        projects
+                    </NavLink>
                 </li>
             </ul>
 
@@ -72,14 +111,53 @@ function Navbar() {
                     : 'fixed left-[-100%] ease-in-out duration-500'
             }>
                 <ul className='pt-24 uppercase'>
-                    <li className={`p-5 border-b ${theme === 'dark' ? 'border-gray-700 hover:text-gray-400' : 'border-gray-200 hover:text-gray-600'}`}>
-                        <Link to="/">about me</Link>
+                    <li className={`p-5 border-b ${theme === 'dark' ? 'border-gray-700' : 'border-gray-200'}`}>
+                        <NavLink 
+                            to="/" 
+                            className={({ isActive }) => 
+                                `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
+                                    ? isActive 
+                                        ? 'text-purple-400 border border-purple-400' 
+                                        : 'hover:text-gray-400' 
+                                    : isActive 
+                                        ? 'text-purple-600 border border-purple-600' 
+                                        : 'hover:text-gray-600'}`
+                            }
+                        >
+                            about me
+                        </NavLink>
                     </li>
-                    <li className={`p-5 border-b ${theme === 'dark' ? 'border-gray-700 hover:text-gray-400' : 'border-gray-200 hover:text-gray-600'}`}>
-                        <Link to="/stacks">stacks</Link>
+                    <li className={`p-5 border-b ${theme === 'dark' ? 'border-gray-700' : 'border-gray-200'}`}>
+                        <NavLink 
+                            to="/stacks" 
+                            className={({ isActive }) => 
+                                `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
+                                    ? isActive 
+                                        ? 'text-purple-400 border border-purple-400' 
+                                        : 'hover:text-gray-400' 
+                                    : isActive 
+                                        ? 'text-purple-600 border border-purple-600' 
+                                        : 'hover:text-gray-600'}`
+                            }
+                        >
+                            stacks
+                        </NavLink>
                     </li>
-                    <li className={`p-5 border-b ${theme === 'dark' ? 'border-gray-700 hover:text-gray-400' : 'border-gray-200 hover:text-gray-600'}`}>
-                        <Link to="/projects">projects</Link>
+                    <li className={`p-5 border-b ${theme === 'dark' ? 'border-gray-700' : 'border-gray-200'}`}>
+                        <NavLink 
+                            to="/projects" 
+                            className={({ isActive }) => 
+                                `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
+                                    ? isActive 
+                                        ? 'text-purple-400 border border-purple-400' 
+                                        : 'hover:text-gray-400' 
+                                    : isActive 
+                                        ? 'text-purple-600 border border-purple-600' 
+                                        : 'hover:text-gray-600'}`
+                            }
+                        >
+                            projects
+                        </NavLink>
                     </li>
                 </ul>
             </div>

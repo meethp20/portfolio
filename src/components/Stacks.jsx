@@ -1,28 +1,48 @@
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaGitAlt, FaGithub } from 'react-icons/fa';
-import { SiTailwindcss, SiMongodb, SiExpress, SiFirebase, SiAppwrite } from 'react-icons/si';
+import { 
+    SiJavascript,
+    SiTypescript,
+    SiReact,
+    SiTailwindcss,
+    SiNodedotjs as SiNode,
+    SiExpress,
+    SiMongodb,
+    SiPython,
+    SiGit,
+    SiGithub,
+    SiVercel,
+    SiBun,
+    SiHtml5,
+    SiCss3,
+    SiFirebase,
+    SiC,
+    SiAppwrite
+} from 'react-icons/si';
 import { DiJava } from 'react-icons/di';
-import { SiC } from 'react-icons/si';
 
 function Stacks() {
     const { theme } = useTheme();
 
     const technologies = [
-        { name: 'React', icon: <FaReact />, color: 'text-blue-500' },
-        { name: 'HTML5', icon: <FaHtml5 />, color: 'text-orange-500' },
-        { name: 'CSS3', icon: <FaCss3Alt />, color: 'text-blue-500' },
-        { name: 'JavaScript', icon: <FaJs />, color: 'text-yellow-500' },
-        { name: 'Node.js', icon: <FaNodeJs />, color: 'text-green-500' },
-        { name: 'Express', icon: <SiExpress />, color: 'text-gray-500' },
-        { name: 'MongoDB', icon: <SiMongodb />, color: 'text-green-500' },
-        { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: 'text-cyan-500' },
-        { name: 'Firebase', icon: <SiFirebase />, color: 'text-orange-500' },
-        { name: 'Git', icon: <FaGitAlt />, color: 'text-red-500' },
-        { name: 'GitHub', icon: <FaGithub />, color: 'text-gray-500' },
-        { name: 'Java', icon: <DiJava />, color: 'text-red-500' },
-        { name: 'C', icon: <SiC />, color: 'text-blue-500' },
-        { name: 'Appwrite', icon: <SiAppwrite />, color: 'text-blue-500' }
+        { name: 'JavaScript', icon: <SiJavascript size={40} className="text-yellow-400" /> },
+        { name: 'TypeScript', icon: <SiTypescript size={40} className="text-blue-500" /> },
+        { name: 'React', icon: <SiReact size={40} className="text-blue-400" /> },
+        { name: 'Tailwind CSS', icon: <SiTailwindcss size={40} className="text-cyan-400" /> },
+        { name: 'Node.js', icon: <SiNode size={40} className="text-green-500" /> },
+        { name: 'Express', icon: <SiExpress size={40} className={theme === 'dark' ? 'text-white' : 'text-black'} /> },
+        { name: 'MongoDB', icon: <SiMongodb size={40} className="text-green-500" /> },
+        { name: 'Python', icon: <SiPython size={40} className="text-blue-500" /> },
+        { name: 'Git', icon: <SiGit size={40} className="text-orange-500" /> },
+        { name: 'GitHub', icon: <SiGithub size={40} className={theme === 'dark' ? 'text-white' : 'text-black'} /> },
+        { name: 'Vercel', icon: <SiVercel size={40} className={theme === 'dark' ? 'text-white' : 'text-black'} /> },
+        { name: 'Bun', icon: <SiBun size={40} className={theme === 'dark' ? 'text-white' : 'text-black'} /> },
+        { name: 'HTML5', icon: <SiHtml5 size={40} className="text-orange-500" /> },
+        { name: 'CSS3', icon: <SiCss3 size={40} className="text-blue-500" /> },
+        { name: 'Firebase', icon: <SiFirebase size={40} className="text-orange-500" /> },
+        { name: 'Appwrite', icon: <SiAppwrite size={40} className="text-blue-500" /> },
+        { name: 'Java', icon: <DiJava size={40} className="text-red-500" /> },
+        { name: 'C', icon: <SiC size={40} className="text-blue-500" /> }
     ];
 
     return (
@@ -48,7 +68,7 @@ function Stacks() {
                             } transition-all duration-300 transform hover:scale-105`}
                         >
                             <div className="flex flex-col items-center text-center">
-                                <div className={`text-4xl mb-4 ${tech.color} group-hover:scale-110 transition-transform duration-300`}>
+                                <div className="mb-4 group-hover:scale-110 transition-transform duration-300">
                                     {tech.icon}
                                 </div>
                                 <h3 className={`text-lg font-semibold ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
