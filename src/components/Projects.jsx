@@ -26,9 +26,14 @@ function Projects() {
                 </a>
 
                 <a href="#" className={`block p-6 ${theme === 'dark' ? 'bg-[#120B1D] border-purple-900' : 'bg-gray-100 border-gray-200'} border rounded-lg shadow hover:bg-opacity-80 hover:scale-105 transition-all duration-300`}>
-                    <h5 className={`mb-2 text-2xl font-bold tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>coming soon</h5>
-                    <p className={`font-normal ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>coming soon</p>
+                    <h5 className={`mb-2 text-2xl font-bold tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Blog App</h5>
+                    <p className={`font-normal ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>(in development)</p>
                     <div className="mt-4 flex gap-2">
+                      <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">React</span>
+                      <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Tailwind</span>
+                      <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Appwrite</span>
+                      <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Redux</span>
+                      <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Bun</span>
                     </div>
                 </a>
 
