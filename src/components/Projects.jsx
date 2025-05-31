@@ -20,7 +20,7 @@ DocuChat is a modern web application that combines PDF document processing with 
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Gemini Api</span>
                     </div>
                 </a>
-                  <a href="https://image-gallery-eosin-seven.vercel.app/" target='_blank' className={`block p-6 ${theme === 'dark' ? 'bg-[#120B1D] border-purple-900' : 'bg-gray-100 border-gray-200'} border rounded-lg shadow hover:bg-opacity-80 hover:scale-105 transition-all duration-300`}>
+                  <a href="https://github.com/meethp20/Crypto-Crash" target='_blank' className={`block p-6 ${theme === 'dark' ? 'bg-[#120B1D] border-purple-900' : 'bg-gray-100 border-gray-200'} border rounded-lg shadow hover:bg-opacity-80 hover:scale-105 transition-all duration-300`}>
                     <h5 className={`mb-2 text-2xl font-bold tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Crypto-Crash</h5>
                     <p className={`font-normal ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>A real-time multiplayer crypto crash game with WebSocket integration and cryptocurrency conversions</p>
                     <div className="mt-4 flex gap-2">
