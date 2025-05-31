@@ -9,6 +9,31 @@ function Projects() {
         <div className="max-w-7xl mx-auto px-4 py-8">
             <h1 className={`text-3xl font-bold ${theme === 'dark' ? 'text-white' : 'text-gray-900'} mb-8`}>My Projects</h1>
             <div className={`grid md:grid-cols-2 gap-8 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
+                 <a href="https://github.com/meethp20/docuchat-app" target='_blank' className={`block p-6 ${theme === 'dark' ? 'bg-[#120B1D] border-purple-900' : 'bg-gray-100 border-gray-200'} border rounded-lg shadow hover:bg-opacity-80 hover:scale-105 transition-all duration-300`}>
+                    <h5 className={`mb-2 text-2xl font-bold tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Docuchat-app</h5>
+                    <p className={`font-normal ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
+DocuChat is a modern web application that combines PDF document processing with AI-powered chat capabilities.</p>
+                    <div className="mt-4 flex gap-2">
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Next.js</span>
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Supabase</span>
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">tailwind</span>
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Typescript</span>
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Gemini Api</span>
+                    </div>
+                </a>
+                  <a href="https://image-gallery-eosin-seven.vercel.app/" target='_blank' className={`block p-6 ${theme === 'dark' ? 'bg-[#120B1D] border-purple-900' : 'bg-gray-100 border-gray-200'} border rounded-lg shadow hover:bg-opacity-80 hover:scale-105 transition-all duration-300`}>
+                    <h5 className={`mb-2 text-2xl font-bold tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Crypto-Crash</h5>
+                    <p className={`font-normal ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>A real-time multiplayer crypto crash game with WebSocket integration and cryptocurrency conversions</p>
+                    <div className="mt-4 flex gap-2">
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">React</span>
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">TailWind</span>
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">MongoDb</span>
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Websockets</span>
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Nodejs</span>
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Express</span>
+                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Api Calling</span>
+                    </div>
+                </a>
                 <a href="https://image-gallery-eosin-seven.vercel.app/" target='_blank' className={`block p-6 ${theme === 'dark' ? 'bg-[#120B1D] border-purple-900' : 'bg-gray-100 border-gray-200'} border rounded-lg shadow hover:bg-opacity-80 hover:scale-105 transition-all duration-300`}>
                     <h5 className={`mb-2 text-2xl font-bold tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Image gallery</h5>
                     <p className={`font-normal ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>takes image and displays it all in a grid</p>
