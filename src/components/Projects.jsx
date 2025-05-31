@@ -16,7 +16,6 @@ DocuChat is a modern web application that combines PDF document processing with 
                     <div className="mt-4 flex gap-2">
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Next.js</span>
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Supabase</span>
-                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">tailwind</span>
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Typescript</span>
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Gemini Api</span>
                     </div>
@@ -26,12 +25,11 @@ DocuChat is a modern web application that combines PDF document processing with 
                     <p className={`font-normal ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>A real-time multiplayer crypto crash game with WebSocket integration and cryptocurrency conversions</p>
                     <div className="mt-4 flex gap-2">
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">React</span>
-                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">TailWind</span>
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">MongoDb</span>
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Websockets</span>
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Nodejs</span>
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Express</span>
-                        <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Api Calling</span>
+                     
                     </div>
                 </a>
                 <a href="https://image-gallery-eosin-seven.vercel.app/" target='_blank' className={`block p-6 ${theme === 'dark' ? 'bg-[#120B1D] border-purple-900' : 'bg-gray-100 border-gray-200'} border rounded-lg shadow hover:bg-opacity-80 hover:scale-105 transition-all duration-300`}>
