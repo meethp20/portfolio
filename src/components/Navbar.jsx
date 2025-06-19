@@ -23,7 +23,7 @@ function Navbar() {
     }, [location]);
 
     return (    
-        <div className={`flex justify-between h-24 max-w-[800px] mx-auto items-center px-4 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
+        <div className={`flex justify-between h-24 max-w-[800px] mt-16 mx-auto items-center px-4 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
             <div>
                 <h1 className={`py-0.5 w-max text-lg font-bold ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
                     Meeth Patel
