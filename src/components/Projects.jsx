@@ -13,7 +13,7 @@ function Projects() {
                     <h5 className={`mb-2 text-2xl font-bold tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Docuchat-app</h5>
                     <p className={`font-normal ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
 DocuChat is a modern web application that combines PDF document processing with AI-powered chat capabilities.</p>
-                    <div className="mt-4 flex gap-2">
+                    <div className="mt-4 flex-wrap gap-2">
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Next.js</span>
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Supabase</span>
                         <span className="px-2 py-1 text-sm bg-purple-900 text-purple-200 rounded">Typescript</span>
