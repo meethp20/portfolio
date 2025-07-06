@@ -30,12 +30,12 @@ function Navbar() {
                 <div className='flex items-center w-[132px] h-[10px] space-x-2 tracking-tighter'>
                     <FaTwitter />
                     <a
-                        href='https://x.com/meeth27'
+                        href='https://x.com/meethtxt'
                         target='_blank'
                         rel="noopener noreferrer"
                         className={`${theme === 'dark' ? 'text-gray-400 hover:text-white font-mono' : 'text-gray-600 hover:text-gray-900'}`}
                     >
-                        meeth27
+                        meethtxt
                     </a>
                 </div>
             </div>

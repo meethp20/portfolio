@@ -51,6 +51,13 @@ export default function Pro1() {
   ];
 
   return (
+    <div className="relative">
+      <div className="w-[730px] inset-0 absolute z-50 h-full rounded-lg bg-gray-900/30 backdrop-blur-md flex justify-center items-center mx-auto">
+       
+        <h1 className="text-gray-400 bg-opacity-40 "> trashed the old stuff working on new stuff</h1>
+
+    
+      </div>
     <Masonry
       breakpointCols={breakpointColumnsObj}
       className="my-masonry-grid"
@@ -67,5 +74,6 @@ export default function Pro1() {
         />
       ))}
     </Masonry>
+    </div>
   );
 }
