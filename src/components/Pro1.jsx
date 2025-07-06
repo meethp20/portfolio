@@ -53,7 +53,7 @@ export default function Pro1() {
 
   return (
     <div className="relative">
-      <div className="w-[730px] inset-0 absolute z-50 shadow-xl  h-full rounded-lg bg-gray-900/30 backdrop-blur-md flex justify-center items-center mx-auto">
+      <div className="lg:w-[730px] w-full inset-0 absolute z-10 shadow-xl  h-full rounded-lg bg-gray-900/30 backdrop-blur-md flex justify-center items-center mx-auto">
        
         <h1 className={`${theme ==='dark' ? " text-gray-200" : " text-gray-900 " }`}> trashed the old stuff working on new stuff</h1>
 
