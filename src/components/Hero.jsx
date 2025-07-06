@@ -14,7 +14,7 @@ function Hero() {
             Focused on learning how to craft products with{" "}
             <span className={`font-bold  ${theme ==='dark'?'text-gray-200' : 'text-gray-800'}`}>exceptional performance</span> and{" "}
            <span className={`font-bold  ${theme ==='dark'?'text-gray-200' : 'text-gray-800'}`}>usability</span>
-            {" "}. My goal is to create products that make our lifes easier. 
+            {" "}. My goal is to create products that make our lives easier. 
           </p>
           <p className={`mt-4 font-sangeist tracking-wide text-lg ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
             Currently exploring the exciting world of  <span className={`font-bold  ${theme ==='dark'?'text-gray-200' : 'text-gray-800'}`}>Web3</span> and <span className={`font-bold  ${theme ==='dark'?'text-gray-200' : 'text-gray-800'}`}>blockchain</span> development on the side, combining my CS background with cutting-edge decentralized technologies.
