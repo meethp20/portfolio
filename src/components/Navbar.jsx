@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { AiFillHeart } from 'react-icons/ai';
+import { useState, useEffect } from 'react';
 import { CiMenuBurger } from "react-icons/ci";
 import { IoClose } from "react-icons/io5";
-import { BsTwitterX } from "react-icons/bs";
 import { useTheme } from '../context/ThemeContext'; // Import the theme context
 import { CiLight } from "react-icons/ci";    
 import { MdOutlineDarkMode } from "react-icons/md";

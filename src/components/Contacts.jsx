@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useTheme } from '../context/ThemeContext';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
