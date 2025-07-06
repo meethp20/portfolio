@@ -1,4 +1,3 @@
-
 import { useTheme } from '../context/ThemeContext';
 import { 
     SiJavascript,
@@ -17,7 +16,9 @@ import {
     SiCss3,
     SiFirebase,
     SiC,
-    SiAppwrite
+    SiAppwrite,
+    SiDocker,
+    SiSupabase
 } from 'react-icons/si';
 import { DiJava } from 'react-icons/di';
 
@@ -41,6 +42,8 @@ function Stacks() {
         { name: 'CSS3', icon: <SiCss3 size={40} className="text-blue-500" /> },
         { name: 'Firebase', icon: <SiFirebase size={40} className="text-orange-500" /> },
         { name: 'Appwrite', icon: <SiAppwrite size={40} className="text-blue-500" /> },
+        { name: 'Docker', icon: <SiDocker size={40} className="text-blue-400" /> },
+        { name: 'Supabase', icon: <SiSupabase size={40} className="text-green-500" /> },
         { name: 'Java', icon: <DiJava size={40} className="text-red-500" /> },
         { name: 'C', icon: <SiC size={40} className="text-blue-500" /> }
     ];

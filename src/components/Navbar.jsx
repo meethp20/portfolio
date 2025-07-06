@@ -91,7 +91,7 @@ function Navbar() {
                 </li>
             </ul>
 
-            <div className='flex items-center space-x-4'>
+            <div className='flex items-center  space-x-4  '>
                 <button
                     onClick={toggleTheme}
                     className={`p-2 bg-transparent rounded transition-all focus:outline-none ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}
@@ -106,7 +106,7 @@ function Navbar() {
 
             <div className={
                 nav
-                    ? `fixed top-0 left-0 text-2xl font-serif w-[60%] border-r h-full z-50 ${theme === 'dark' ? 'bg-[#000300] border-gray-700' : 'bg-white border-gray-200'} ease-in-out duration-500`
+                    ? `fixed top-0 left-0 just text-2xl font-serif w-[60%] border-r h-full z-50 ${theme === 'dark' ? 'bg-[#000300] border-gray-700' : 'bg-white border-gray-200'} ease-in-out duration-500`
                     : 'fixed left-[-100%] ease-in-out duration-500'
             }>
                 <ul className='pt-24 uppercase'>
@@ -117,7 +117,7 @@ function Navbar() {
                                 `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
                                     ? isActive 
                                         ? 'text-purple-400 border border-purple-400' 
-                                        : 'hover:text-gray-400' 
+                                        : 'hover:text-gray-400 ' 
                                     : isActive 
                                         ? 'text-purple-600 border border-purple-600' 
                                         : 'hover:text-gray-600'}`
