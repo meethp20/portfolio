@@ -28,7 +28,7 @@ function Navbar() {
                     Meeth Patel
                 </h1>
                 <div className='flex items-center w-[132px] h-[10px] space-x-2 tracking-tighter'>
-                    <FaTwitter />
+                    <FaTwitter className='text-blue-400' />
                     <a
                         href='https://x.com/meethtwt'
                         target='_blank'
