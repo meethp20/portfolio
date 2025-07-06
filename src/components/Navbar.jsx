@@ -23,18 +23,18 @@ function Navbar() {
     }, [location]);
 
     return (    
-        <div className={`flex justify-between h-24 max-w-[800px] mt-16 mx-auto items-center px-4 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
+        <div className={`flex justify-between h-24 max-w-[800px]  mt-3 mx-auto items-center px-4 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
             <div>
-                <h1 className={`py-0.5 w-max text-lg font-bold ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
+                <h1 className={`py-0.5 w-max text-lg tracking-tighter font-bond font-sangeist ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
                     Meeth Patel
                 </h1>
-                <div className='flex items-center space-x-2'>
+                <div className='flex items-center space-x-2 tracking-tighter'>
                     <BsTwitterX size={20} />
                     <a
                         href='https://x.com/meeth27'
                         target='_blank'
                         rel="noopener noreferrer"
-                        className={`${theme === 'dark' ? 'text-gray-300 hover:text-white' : 'text-gray-600 hover:text-gray-900'}`}
+                        className={`${theme === 'dark' ? 'text-gray-400 hover:text-white font-mono' : 'text-gray-600 hover:text-gray-900'}`}
                     >
                         meeth27
                     </a>

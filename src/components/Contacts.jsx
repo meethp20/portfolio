@@ -10,7 +10,7 @@ function Contacts() {
         <footer className={`w-full py-8 ${theme === 'dark' ? 'bg-[#000300]' : 'bg-white'}`}>
             <div className="max-w-[800px] mx-auto px-4">
                 <div className="flex flex-col items-center space-y-6">
-                    <h2 className={`text-2xl font-bold ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
+                    <h2 className={`text-2xl font-normal tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
                         Get in Touch
                     </h2>
                     <div className="flex space-x-6">

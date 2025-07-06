@@ -7,6 +7,8 @@ export default {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
         serif: ['EB Garamond', 'serif'],
+        sangeist:['Geist Sans', 'sans-serif'],
+        mono: ['Geist Mono', 'monospace'],
       },
     },
   },

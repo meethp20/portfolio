@@ -47,9 +47,9 @@ function Stacks() {
 
     return (
         <div className="w-full">
-            <div className="max-w-7xl mx-auto px-4 py-16">
+            <div className="max-w-7xl font-mono mx-auto px-4 py-16">
                 <div className="text-center mb-16">
-                    <h1 className={`text-4xl font-bold mb-4 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
+                    <h1 className={`text-4xl tracking-tighter font-bold mb-4 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
                         Tech Stack
                     </h1>
                     <p className={`text-lg ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>

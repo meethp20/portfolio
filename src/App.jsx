@@ -12,9 +12,9 @@ function AppContent() {
   
   return (
     <div className={`min-h-screen w-full flex flex-col ${theme === 'dark' ? 'bg-[#000300]' : 'bg-white'}`}>
-      <div className="max-w-[800px] mx-auto w-full">
+      <div className="max-w-[730px] mx-auto w-full">
         <Navbar />
-        <main className="pt-8 flex-grow">
+        <main className=" flex-grow">
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/pro1" element={<Pro1 />} />
