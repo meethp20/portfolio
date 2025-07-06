@@ -1,7 +1,8 @@
 import Masonry from "react-masonry-css";
 import Card from "./Card";
-
+import { useTheme } from "../context/ThemeContext";
 export default function Pro1() {
+  const {theme} = useTheme()
   const breakpointColumnsObj = {
     default: 3,
     1024: 3,
@@ -52,9 +53,9 @@ export default function Pro1() {
 
   return (
     <div className="relative">
-      <div className="w-[730px] inset-0 absolute z-50 h-full rounded-lg bg-gray-900/30 backdrop-blur-md flex justify-center items-center mx-auto">
+      <div className="w-[730px] inset-0 absolute z-50 shadow-xl  h-full rounded-lg bg-gray-900/30 backdrop-blur-md flex justify-center items-center mx-auto">
        
-        <h1 className="text-gray-400 bg-opacity-40 "> trashed the old stuff working on new stuff</h1>
+        <h1 className={`${theme ==='dark' ? " text-gray-200" : " text-gray-900 " }`}> trashed the old stuff working on new stuff</h1>
 
     
       </div>
