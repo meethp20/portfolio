@@ -76,7 +76,7 @@ function Navbar() {
                 </li>
                 <li>
                     <NavLink 
-                        to="/projects" 
+                        to="/pro1" 
                         className={({ isActive }) => 
                             `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
                                 ? isActive 
@@ -145,7 +145,7 @@ function Navbar() {
                     </li>
                     <li className={`p-5 border-b ${theme === 'dark' ? 'border-gray-700' : 'border-gray-200'}`}>
                         <NavLink 
-                            to="/projects" 
+                            to="/pro1" 
                             className={({ isActive }) => 
                                 `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
                                     ? isActive 

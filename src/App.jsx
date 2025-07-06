@@ -1,10 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Projects from './components/Projects'
+import Pro1 from './components/Pro1'
 import { ThemeProvider, useTheme } from './context/ThemeContext'
 import Stacks from './components/Stacks'
 import Contacts from './components/Contacts'
@@ -20,7 +17,7 @@ function AppContent() {
         <main className="pt-8 flex-grow">
           <Routes>
             <Route path="/" element={<Hero />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/pro1" element={<Pro1 />} />
             <Route path="/stacks" element={<Stacks />} />
           </Routes>
         </main>
