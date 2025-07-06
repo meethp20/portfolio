@@ -1,6 +1,6 @@
 export default function Stack({ stack }) {
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex font-mono tracking-wider flex-wrap gap-2">
       {stack.map((name,id) => {
         return (
           <span 

@@ -5,7 +5,7 @@ function Projects() {
   const { theme } = useTheme();
   
   return (
-    <div className="w-full">
+    <div className="w-full font-mono">
         <div className="max-w-7xl mx-auto px-4 py-8">
             <h1 className={`text-3xl font-bold ${theme === 'dark' ? 'text-white' : 'text-gray-900'} mb-8`}>My Projects</h1>
             <div className={`grid md:grid-cols-2 gap-8 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>

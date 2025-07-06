@@ -7,6 +7,7 @@ import { useTheme } from '../context/ThemeContext'; // Import the theme context
 import { CiLight } from "react-icons/ci";    
 import { MdOutlineDarkMode } from "react-icons/md";
 import { NavLink, useLocation } from 'react-router-dom';
+import { FaTwitter } from "react-icons/fa";
 
 function Navbar() {
     const [nav, setNav] = useState(false);
@@ -25,11 +26,11 @@ function Navbar() {
     return (    
         <div className={`flex justify-between h-24 max-w-[800px]  mt-3 mx-auto items-center px-4 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
             <div>
-                <h1 className={`py-0.5 w-max text-lg tracking-tighter font-bond font-sangeist ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
+                <h1 className={`py-0.5 w-max text-[17px] tracking-tighter font-bold font-sangeist ${theme === 'dark' ? 'text-gray-200' : 'text-gray-900'}`}>
                     Meeth Patel
                 </h1>
-                <div className='flex items-center space-x-2 tracking-tighter'>
-                    <BsTwitterX size={20} />
+                <div className='flex items-center w-[132px] h-[10px] space-x-2 tracking-tighter'>
+                    <FaTwitter />
                     <a
                         href='https://x.com/meeth27'
                         target='_blank'
@@ -41,7 +42,7 @@ function Navbar() {
                 </div>
             </div>
 
-            <ul className='hidden md:flex space-x-6'>
+            <ul className='hidden md:flex font-mono space-x-6'>
                 <li>
                     <NavLink 
                         to="/" 
