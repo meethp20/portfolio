@@ -10,7 +10,7 @@ function Hero() {
         <section className="my-8 tracking-wide">
           <h2 className={`text-4xl tracking-tighter font-sangeist ${theme === 'dark' ? 'text-gray-50' : 'text-gray-900'}`}>about me</h2>
           <p className={`mt-4 font-sangeist tracking-wide text-lg ${theme === 'dark' ? 'text-gray-300' : 'text-gray-800'}`}>
-            I'm a second-year Computer Science graduate student passionate about web development and <span className={`font-bold  ${theme ==='dark'?'text-gray-200' : 'text-gray-800'}`}>blockchain</span> technology. 
+            I'm a third-year Computer Science graduate student passionate about web development and <span className={`font-bold  ${theme ==='dark'?'text-gray-200' : 'text-gray-800'}`}>blockchain</span> technology. 
             Focused on learning how to craft products with{" "}
             <span className={`font-bold  ${theme ==='dark'?'text-gray-200' : 'text-gray-800'}`}>exceptional performance</span> and{" "}
            <span className={`font-bold  ${theme ==='dark'?'text-gray-200' : 'text-gray-800'}`}>usability</span>
