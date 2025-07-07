@@ -43,7 +43,7 @@ function Projects() {
                 <a href="https://github-profiles-blue.vercel.app/" target='_blank' className={`block p-6 ${theme === 'dark' ? 'bg-[#120B1D] border-purple-900' : 'bg-gray-100 border-gray-200'} border rounded-lg shadow hover:bg-opacity-80 hover:scale-105 transition-all duration-300`}>
                     <h5 className={`mb-2 text-2xl font-bold tracking-tight ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>github profile finder</h5>
                     <p className={`font-normal ${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>finds github profile of a user</p>
-                    <div className="mt-4 flex-wrap gap-2">
+                    <div className="">
                         <span className="px-3 py-1 text-sm bg-purple-900 text-purple-200 rounded whitespace-nowrap">Javasript</span>
                     </div>
                 </a>
