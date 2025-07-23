@@ -47,7 +47,7 @@ function Navbar() {
                         className={({ isActive }) => 
                             `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
                                 ? isActive 
-                                    ? 'text-purple-400 border border-purple-400' 
+                                    ? 'text-stone-700 border font-sans font-bold bg-stone-100 border-stone-700' 
                                     : 'hover:text-gray-400' 
                                 : isActive 
                                     ? 'text-purple-600 border border-purple-600' 
@@ -63,11 +63,11 @@ function Navbar() {
                         className={({ isActive }) => 
                             `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
                                 ? isActive 
-                                    ? 'text-purple-400 border border-purple-400' 
+                                    ? 'text-stone-700 border font-sans font-bold  bg-stone-100 border-stone-700' 
                                     : 'hover:text-gray-400' 
                                 : isActive 
                                     ? 'text-purple-600 border border-purple-600' 
-                                    : 'hover:text-gray-600'}`
+                                    : 'hover:text-gray-400'}`
                         }
                     >
                         stacks
@@ -79,11 +79,11 @@ function Navbar() {
                         className={({ isActive }) => 
                             `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
                                 ? isActive 
-                                    ? 'text-purple-400 border border-purple-400' 
+                                    ? 'text-stone-700 border font-sans font-bold bg-stone-100 border-stone-700' 
                                     : 'hover:text-gray-400' 
                                 : isActive 
                                     ? 'text-purple-600 border border-purple-600' 
-                                    : 'hover:text-gray-600'}`
+                                    : 'hover:text-gray-400'}`
                         }
                     >
                         projects
