@@ -51,7 +51,7 @@ function Navbar() {
                                     : 'hover:text-gray-400' 
                                 : isActive 
                                     ? 'text-stone-100 border font-sans font-bold bg-stone-900 border-stone-700' 
-                                    : 'hover:text-gray-600'}`
+                                    : 'hover:text-gray-4    00'}`
                         }
                     >
                         about
@@ -109,17 +109,17 @@ function Navbar() {
                     ? `fixed top-0 left-0 just text-2xl font-serif w-[60%] border-r h-full z-50 ${theme === 'dark' ? 'bg-[#000300] border-gray-700' : 'bg-white border-gray-200'} ease-in-out duration-500`
                     : 'fixed left-[-100%] ease-in-out duration-500'
             }>
-                <ul className='pt-24 uppercase'>
+                <ul className='pt-24 '>
                     <li className={`p-5 border-b ${theme === 'dark' ? 'border-gray-700' : 'border-gray-200'}`}>
                         <NavLink 
                             to="/" 
                             className={({ isActive }) => 
                                 `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
                                     ? isActive 
-                                        ? 'text-purple-400 border border-purple-400' 
+                                        ? 'text-stone-700 border font-sans font-bold bg-stone-100 border-stone-700' 
                                         : 'hover:text-gray-400 ' 
                                     : isActive 
-                                        ? 'text-purple-600 border border-purple-600' 
+                                        ? 'text-stone-100 border font-sans font-bold bg-stone-900 border-stone-700' 
                                         : 'hover:text-gray-600'}`
                             }
                         >
@@ -132,10 +132,10 @@ function Navbar() {
                             className={({ isActive }) => 
                                 `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
                                     ? isActive 
-                                        ? 'text-purple-400 border border-purple-400' 
+                                        ? 'text-stone-700 border font-sans font-bold bg-stone-100 border-stone-700' 
                                         : 'hover:text-gray-400' 
                                     : isActive 
-                                        ? 'text-purple-600 border border-purple-600' 
+                                        ? 'text-stone-100 border font-sans font-bold bg-stone-900 border-stone-700' 
                                         : 'hover:text-gray-600'}`
                             }
                         >
@@ -148,10 +148,10 @@ function Navbar() {
                             className={({ isActive }) => 
                                 `px-3 py-1 rounded-full transition-all ${theme === 'dark' 
                                     ? isActive 
-                                        ? 'text-purple-400 border border-purple-400' 
+                                        ? 'text-stone-700 border font-sans font-bold bg-stone-100 border-stone-700' 
                                         : 'hover:text-gray-400' 
                                     : isActive 
-                                        ? 'text-purple-600 border border-purple-600' 
+                                        ? 'text-stone-100 border font-sans font-bold bg-stone-900 border-stone-700' 
                                         : 'hover:text-gray-600'}`
                             }
                         >
