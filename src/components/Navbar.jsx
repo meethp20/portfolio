@@ -51,7 +51,7 @@ function Navbar() {
                                     : 'hover:text-gray-400' 
                                 : isActive 
                                     ? 'text-stone-100 border font-sans font-bold bg-stone-900 border-stone-700' 
-                                    : 'hover:text-gray-4    00'}`
+                                    : 'hover:text-gray-400'}`
                         }
                     >
                         about
