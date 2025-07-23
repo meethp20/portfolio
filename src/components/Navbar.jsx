@@ -33,7 +33,7 @@ function Navbar() {
                         href='https://x.com/meethtwt'
                         target='_blank'
                         rel="noopener noreferrer"
-                        className={`${theme === 'dark' ? 'text-gray-400 hover:text-white font-mono' : 'text-gray-600 hover:text-gray-900'}`}
+                        className={`${theme === 'dark' ? 'text-gray-400 hover:text-white ' : 'text-gray-600 hover:text-gray-900'}`}
                     >
                         meethtwt
                     </a>
@@ -50,7 +50,7 @@ function Navbar() {
                                     ? 'text-stone-700 border font-sans font-bold bg-stone-100 border-stone-700' 
                                     : 'hover:text-gray-400' 
                                 : isActive 
-                                    ? 'text-purple-600 border border-purple-600' 
+                                    ? 'text-stone-100 border font-sans font-bold bg-stone-900 border-stone-700' 
                                     : 'hover:text-gray-600'}`
                         }
                     >
@@ -66,7 +66,7 @@ function Navbar() {
                                     ? 'text-stone-700 border font-sans font-bold  bg-stone-100 border-stone-700' 
                                     : 'hover:text-gray-400' 
                                 : isActive 
-                                    ? 'text-purple-600 border border-purple-600' 
+                                    ? 'text-stone-100 border font-sans font-bold bg-stone-900 border-stone-700' 
                                     : 'hover:text-gray-400'}`
                         }
                     >
@@ -82,7 +82,7 @@ function Navbar() {
                                     ? 'text-stone-700 border font-sans font-bold bg-stone-100 border-stone-700' 
                                     : 'hover:text-gray-400' 
                                 : isActive 
-                                    ? 'text-purple-600 border border-purple-600' 
+                                    ? 'text-stone-100 border font-sans font-bold bg-stone-900 border-stone-700' 
                                     : 'hover:text-gray-400'}`
                         }
                     >
