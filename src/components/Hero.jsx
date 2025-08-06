@@ -5,7 +5,7 @@ function Hero() {
   const { theme } = useTheme();
   
   return (
-    <div className="w-full">
+    <div className="w-full selection:bg-emerald-800">
       <main className="container mx-auto px-6 ">
         <section className="my-8 tracking-wide">
           <h2 className={`text-4xl tracking-tighter font-sangeist ${theme === 'dark' ? 'text-gray-50' : 'text-gray-900'}`}>about me</h2>
